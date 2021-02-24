@@ -23,7 +23,7 @@
             <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Mothers
             </div>
-            <q-separator class="q-my-md"></q-separator>
+            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/maternity.svg" height="50" width="50" alt="" />
           </q-card>
           <q-card class="col custom__card-negative-margin" bordered flat square>
@@ -31,7 +31,7 @@
               Healthy Babies
             </div>
 
-            <q-separator class="q-my-md"></q-separator>
+            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img
               src="/images/baby.svg"
               height="50"
@@ -44,14 +44,14 @@
             <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
               Happy Family
             </div>
-            <q-separator class="q-my-md"></q-separator>
+            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/family.svg" height="50" width="50" alt="" />
           </q-card>
           <q-card class="col custom__card-negative-margin" bordered flat square>
             <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
               Happy Life
             </div>
-            <q-separator class="q-my-md"></q-separator>
+            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img
               src="/images/life-insurance.svg"
               height="50"
@@ -67,9 +67,14 @@
         </h3>
         <div class="row">
           <v-col class="col">
-            <div class="q-pa-md">
-              <img src="images/mail.jpeg" alt="brandimage" width="100%" />
-            </div>
+            <q-card flat square>
+              <img
+                src="images/undraw_baby.svg"
+                alt="brandimage"
+                height="500px"
+                width="100%"
+              />
+            </q-card>
           </v-col>
           <v-col class="col">
             <q-card class="col" flat square>
@@ -99,7 +104,9 @@
       <h3 class="text-center text-h4 text-weight-light custom__heading-black">
         The Problem
       </h3>
-      <p class="text-center text-h6 text-weight-light custom__container">
+      <p
+        class="text-center text-h6 text-weight-light custom__container q-pb-md"
+      >
         Our sisters, wives, daughters and new born still die preventable deaths
         due to poverty, ignorance and inadequate reproductive healthcare
         delivery throughout the country especially in rural areas. The major
@@ -127,69 +134,116 @@
           <img src="/images/preg3.jpg" height="100%" width="100%" />
         </div>
         <div class="col custom__preg">
-          <img src="/images/preg4.jpg" height="100%" width="100%" />
+          <img src="/images/preg6.jpg" height="100%" width="100%" />
         </div>
       </div>
     </section>
-    <!-- 
-    <div class="row introduction">
-      <div class="col-md-5 col-sm-5 col-xs-12 bg-grey-4">
-        <div class="q-pa-lg">
-          <span class="text-h5">The Problem</span> <br />
-          Our sisters, wives, daughters and new born still die preventable
-          deaths due to poverty, ignorance and inadequate reproductive
-          healthcare delivery throughout the country especially in rural areas.
-          <br />
-          The major health problems of women are high maternal mortality rates
-          associated with pregnancy, labour and childbirth.<br />
-          Causes of maternal death among others are; ignorance, poverty, woman
-          conceiving when unhealthy, malaria, excessive bleeding, infection,
-          toxaemia of pregnancy, unsafe abortion, prolonged labour, fear,
-          teenage pregnancy, having several sexual partners.<br />
-          Maternal mortality is a monster that we can jointly defeat. <br />
-          The scope of our assignment spreads across protecting the teenage girl
-          from having VVF, ensuring safe delivery and protected babies of
-          mothers with HIV, preventing complications due to actions and
-          inactions that can lead to having babies with major health crisis.
+    <section class="section__mission">
+      <div class="row">
+        <div class="col">
+          <h3
+            class="text-center text-h4 text-weight-light custom__heading-black"
+          >
+            Our Mission
+          </h3>
+          <q-card square class="q-pa-xl bg-black text-white ">
+            <p class="q-px-xl text-center text-h6 text-weight-light">
+              Our mission is to eliminate maternal mortality and new born
+              morbidity by equipping the woman with adequate information to
+              promote healthy lifestyle, healthy pregnancy and a healthy family.
+              Also to work hand in hand with the health care givers to reinforce
+              the effectiveness of effort. We carry out sensitization against
+              HIV, STDs and needless voluntary and involuntary abortion.
+            </p>
+          </q-card>
+        </div>
+        <div class="col">
+          <h3
+            class="text-center text-h4 text-weight-light custom__heading-black"
+          >
+            Our Vision
+          </h3>
+          <q-card square flat class="q-pa-xl bg-white">
+            <p class="q-px-xl text-center text-h6 text-weight-light">
+              To see that a woman carries her pregnancy to full term, delivers
+              her baby and both mother and baby remain healthy through
+              postpartum while child lives beyond 5years. Our vision is to bring
+              maternal mortality to zero tolerance level.
+            </p>
+          </q-card>
         </div>
       </div>
-
-      <div class="col-md-7 col-sm-7 col-xs-12  bg-green-7">
-        <div class="q-pa-md">
-          <div class="row items-start justify-center  q-pa-md q-gutter-sm">
-            <q-card
-              class="q-pa-md text-white bg-primary"
-              style="max-width: 350px"
-            >
-              <span class="text-h3 text-weight-thin">Our Vision <br /> </span>
-              <p>
-                To see that a woman carries her pregnancy to full term, delivers
-                her baby and both mother and baby remain healthy through
-                postpartum while child lives beyond 5years. <br />
-                Our vision is to bring maternal mortality to zero tolerance
-                level.
-              </p>
-            </q-card>
-
-            <q-card class="q-pa-md text-black" style="max-width: 350px">
-              <span class="text-h3 text-weight-thin">Our Mission <br /> </span>
-              <p>
-                Our mission is to eliminate maternal mortality and new born
-                morbidity by equipping the woman with adequate information to
-                promote healthy lifestyle, healthy pregnancy and a healthy
-                family. Also to work hand in hand with the health care givers to
-                reinforce the effectiveness of effort. We carry out
-                sensitization against HIV, STDs and needless voluntary and
-                involuntary abortion.
-              </p>
-            </q-card>
+    </section>
+    <section
+      class="section__features row justify-center items-center bg-yellow-12"
+    >
+      <div class="row">
+        <div class="col">
+          <div class="row justify-center items-center">
+            <img src="/images/briefing.svg" height="50" width="50" alt="" />
           </div>
+          <h3
+            class="text-center text-h5 text-weight-light custom__heading-black"
+          >
+            Campaigns
+          </h3>
+          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
+          <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
+            To create and provide maternal health educational materials for the
+            sensitization through campaigns.
+          </div>
+          <!-- </q-card> -->
+        </div>
+        <div class="col">
+          <div class="row justify-center items-center">
+            <img src="/images/work.svg" height="50" width="50" alt="" />
+          </div>
+          <h3
+            class="text-center text-h5 text-weight-light custom__heading-black"
+          >
+            Sensitization
+          </h3>
+          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
+          <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            minima optio commodi repellat enim ea!
+          </div>
+          <!-- </q-card> -->
+        </div>
+        <div class="col">
+          <div class="row justify-center items-center">
+            <img src="/images/seminar.svg" height="50" width="50" alt="" />
+          </div>
+          <h3
+            class="text-center text-h5 text-weight-light custom__heading-black"
+          >
+            Seminars
+          </h3>
+          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
+          <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
+            To create and provide maternal health educational materials for the
+            sensitization through seminars.
+          </div>
+          <!-- </q-card> -->
+        </div>
+        <div class="col">
+          <div class="row justify-center items-center">
+            <img src="/images/empowerment.svg" height="50" width="50" alt="" />
+          </div>
+          <h3
+            class="text-center text-h5 text-weight-light custom__heading-black"
+          >
+            Empowerment Programmes
+          </h3>
+          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
+          <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            minima optio commodi repellat enim ea!
+          </div>
+          <!-- </q-card> -->
         </div>
       </div>
-    </div>
-    <q-dialog v-model="book">
-      <ModalBook />
-    </q-dialog> -->
+    </section>
   </div>
 </template>
 
@@ -306,6 +360,10 @@ export default {
   -ms-transform: scale(1.03);
   transform: scale(1.03);
   opacity: 1;
+}
+
+.section__features {
+  height: 50vh;
 }
 
 .custom-caption {
