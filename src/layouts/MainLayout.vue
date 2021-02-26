@@ -1,13 +1,18 @@
 <template>
   <q-layout view="lHh Lpr lFf">
-    <q-header elevated class="">
+    <q-header bordered class="bg-black">
       <q-toolbar class="bg-white text-brown">
-        <!-- <a href="/"><img src="logos/logo1240.png" alt="logo" style="height: 40px; max-width: 40px; padding-top: 5px;"></a> -->
-        <q-icon name="bubble_chart" size="30px" />
+        <img
+          src="/images/mail.jpeg"
+          class="cursor-pointer"
+          width="60px"
+          height="60px"
+          alt=""
+        />
 
-        <q-toolbar-title class="text-h6">
+        <q-toolbar-title class="text-h6 text-weight-light">
           <router-link to="/" tag="span" style="cursor: pointer">
-            SMF
+            Safe Motherhood Foundation
           </router-link>
         </q-toolbar-title>
 
@@ -24,7 +29,7 @@
           exact
           clickable
         >
-          <div class="column q-mr-md">
+          <div class="column q-mr-md text-weight-light">
             <q-item-label>{{ link.label }}</q-item-label>
           </div>
         </q-btn>
@@ -46,32 +51,44 @@
         <footer>
           <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12 q-pt-md">
-              <div class="text-body1 typo1 my-font">
+              <div class="text-body1">
                 © 2020 Safe Motherhood Foundation. All rights reserved.
+              </div>
+              <div class="text-body1">
+                <img
+                  src="/images/mail.jpeg"
+                  class="cursor-pointer"
+                  width="150px"
+                  height="150px"
+                  alt=""
+                />
+              </div>
+              <div class="text-body1">
+                Greysoft Technologies ©
               </div>
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-                  <div class="text-body1 typo1 text-bold my-font">
+                  <div class="text-body1 text-bold">
                     NAVIGATION
                   </div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
+                  <div class="text-body1 q-mt-md cursor-pointer">
                     Home
                   </div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
+                  <div class="text-body1 q-mt-md cursor-pointer">
                     About Us
                   </div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
+                  <div class="text-body1 q-mt-md cursor-pointer">
                     Donate
                   </div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
+                  <div class="text-body1 q-mt-md cursor-pointer">
                     Contact Us
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-                  <div class="text-body1 typo1 text-bold my-font">LEGAL</div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
+                  <div class="text-body1 text-bold my-font">LEGAL</div>
+                  <div class="text-body1 q-mt-md cursor-pointer">
                     Terms and Agreement
                   </div>
                   <div class="text-body1 typo1 q-mt-md cursor-pointer">
@@ -90,11 +107,6 @@
           </div>
         </footer>
       </div>
-      <!-- <div class="text-center bg-grey-10">
-        <div class="text-primary">Safe Motherhood Foundation</div>
-        <div class="text-grey-6">Copyright 2020</div>
-        <div class="text-grey-6">Greysoft Technologies</div>
-      </div> -->
     </q-footer>
 
     <!-- <q-drawer v-model="leftDrawerOpen" :width="250" content-class="bg-primary">

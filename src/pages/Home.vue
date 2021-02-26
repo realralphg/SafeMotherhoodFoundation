@@ -16,18 +16,18 @@
         <span class="text-h6 text-weight-light"> Joe Adejo</span></span
       >
     </header>
-    <section class="section__abput-us">
+    <section class="section__about-us">
       <div class="custom__container">
         <div class="row">
           <q-card class="col custom__card-negative-margin" bordered flat square>
-            <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
+            <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Mothers
             </div>
             <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/maternity.svg" height="50" width="50" alt="" />
           </q-card>
           <q-card class="col custom__card-negative-margin" bordered flat square>
-            <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
+            <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Babies
             </div>
 
@@ -41,14 +41,14 @@
             />
           </q-card>
           <q-card class="col custom__card-negative-margin" bordered flat square>
-            <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
+            <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Family
             </div>
             <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/family.svg" height="50" width="50" alt="" />
           </q-card>
           <q-card class="col custom__card-negative-margin" bordered flat square>
-            <div class="text-h5 text-weight-light text-center q-my-md q-mx-sm">
+            <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Life
             </div>
             <!-- <q-separator class="q-my-md"></q-separator> -->
@@ -62,8 +62,8 @@
         </div>
       </div>
       <div class="custom__container">
-        <h3 class="text-center text-h4 text-weight-light custom__heading-black">
-          About Us
+        <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+          About <span class="text-weight-bolder">Us</span>
         </h3>
         <div class="row">
           <v-col class="col">
@@ -71,14 +71,14 @@
               <img
                 src="images/undraw_baby.svg"
                 alt="brandimage"
-                height="500px"
+                height="400px"
                 width="100%"
               />
             </q-card>
           </v-col>
           <v-col class="col">
             <q-card class="col" flat square>
-              <div class="text-h6 text-weight-light text-center q-pa-md">
+              <div class="text-subtitle1 text-weight-light text-center q-pa-md">
                 Safe Motherhood Foundation was established by Dr Joe Adejo. This
                 vision was borne out of pain and anguish over the devastating
                 effect of maternal mortality and new born morbidity. The Safe
@@ -101,11 +101,11 @@
     </section>
 
     <section class="section__problem">
-      <h3 class="text-center text-h4 text-weight-light custom__heading-black">
-        The Problem
+      <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+        The <span class="text-weight-bolder"> Problem</span>
       </h3>
       <p
-        class="text-center text-h6 text-weight-light custom__container q-pb-md"
+        class="text-center text-subtitle1 text-weight-light custom__container q-pb-md"
       >
         Our sisters, wives, daughters and new born still die preventable deaths
         due to poverty, ignorance and inadequate reproductive healthcare
@@ -124,17 +124,17 @@
       <div class="row q-gutter-none q-mt-md">
         <div class="col custom__preg">
           <!-- <figure class="meal-photo"> -->
-          <img src="/images/preg1.jpg" height="100%" width="100%" />
+          <img src="/images/preg1.jpg" height="200px" width="100%" />
           <!-- </figure> -->
         </div>
         <div class="col custom__preg">
-          <img src="/images/preg2.jpg" height="100%" width="100%" />
+          <img src="/images/preg2.jpg" height="200px" width="100%" />
         </div>
         <div class="col custom__preg">
-          <img src="/images/preg3.jpg" height="100%" width="100%" />
+          <img src="/images/preg3.jpg" height="200px" width="100%" />
         </div>
         <div class="col custom__preg">
-          <img src="/images/preg6.jpg" height="100%" width="100%" />
+          <img src="/images/preg6.jpg" height="200px" width="100%" />
         </div>
       </div>
     </section>
@@ -142,12 +142,12 @@
       <div class="row">
         <div class="col">
           <h3
-            class="text-center text-h4 text-weight-light custom__heading-black"
+            class="text-center text-h5 text-weight-light custom__heading-black"
           >
-            Our Mission
+            Our <span class="text-weight-bolder">Mission</span>
           </h3>
-          <q-card square class="q-pa-xl bg-black text-white ">
-            <p class="q-px-xl text-center text-h6 text-weight-light">
+          <q-card flat square class="q-pa-xl bg-black text-white ">
+            <p class="q-px-xl text-center text-subtitle1 text-weight-light">
               Our mission is to eliminate maternal mortality and new born
               morbidity by equipping the woman with adequate information to
               promote healthy lifestyle, healthy pregnancy and a healthy family.
@@ -159,12 +159,12 @@
         </div>
         <div class="col">
           <h3
-            class="text-center text-h4 text-weight-light custom__heading-black"
+            class="text-center text-h5 text-weight-light custom__heading-black"
           >
-            Our Vision
+            Our <span class="text-weight-bolder">Vision</span>
           </h3>
           <q-card square flat class="q-pa-xl bg-white">
-            <p class="q-px-xl text-center text-h6 text-weight-light">
+            <p class="q-px-xl text-center text-subtitle1 text-weight-light">
               To see that a woman carries her pregnancy to full term, delivers
               her baby and both mother and baby remain healthy through
               postpartum while child lives beyond 5years. Our vision is to bring
@@ -175,7 +175,7 @@
       </div>
     </section>
     <section
-      class="section__features row justify-center items-center bg-yellow-12"
+      class="section__features row justify-center items-center bg-yellow-12 q-pa-xl"
     >
       <div class="row">
         <div class="col">
@@ -187,12 +187,10 @@
           >
             Campaigns
           </h3>
-          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
             To create and provide maternal health educational materials for the
             sensitization through campaigns.
           </div>
-          <!-- </q-card> -->
         </div>
         <div class="col">
           <div class="row justify-center items-center">
@@ -203,12 +201,10 @@
           >
             Sensitization
           </h3>
-          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             minima optio commodi repellat enim ea!
           </div>
-          <!-- </q-card> -->
         </div>
         <div class="col">
           <div class="row justify-center items-center">
@@ -219,12 +215,10 @@
           >
             Seminars
           </h3>
-          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
             To create and provide maternal health educational materials for the
             sensitization through seminars.
           </div>
-          <!-- </q-card> -->
         </div>
         <div class="col">
           <div class="row justify-center items-center">
@@ -235,12 +229,10 @@
           >
             Empowerment Programmes
           </h3>
-          <!-- <q-card class="col custom__card-negative-margin" bordered flat square> -->
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
             minima optio commodi repellat enim ea!
           </div>
-          <!-- </q-card> -->
         </div>
       </div>
     </section>
@@ -262,40 +254,16 @@ export default {
       slid: "moonlove",
       navigation: true,
       navPos: "bottom",
-      slide: 1,
-
-      topCarousel: [
-        {
-          id: "1",
-          name: "moonlove",
-          imageUrl: "/images/preg1.jpg",
-          title: "18th December, 2020"
-        },
-        {
-          id: "2",
-          name: "lovecircle",
-          imageUrl: "/images/preg2.jpg",
-          title: "#MusDee2020"
-        },
-        {
-          id: "3",
-          name: "lovelove",
-          imageUrl: "/images/preg3.jpg",
-          title: "#Soulmates"
-        },
-        {
-          id: "4",
-          name: "loveRing",
-          imageUrl: "/images/preg4.jpg",
-          title: "#Forever"
-        }
-      ]
+      slide: 1
     };
   }
 };
 </script>
 
-<style scoped>
+<style>
+ul {
+  list-style-type: square;
+}
 .custom__header {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
     url("/images/preg5.jpg");
@@ -362,9 +330,9 @@ export default {
   opacity: 1;
 }
 
-.section__features {
+/* .section__features {
   height: 50vh;
-}
+} */
 
 .custom-caption {
   bottom: 50px;
