@@ -47,17 +47,17 @@
               Our
               <span class="text-weight-bolder">Books</span>
             </h3>
-            <div class="row q-gutter-xl">
-              <div class="col">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book1.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book2.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book3.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book4.jpg" contain />
               </div>
             </div>

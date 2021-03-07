@@ -10,7 +10,7 @@
           alt=""
         />
 
-        <q-toolbar-title class="text-h6 text-weight-light">
+        <q-toolbar-title class="text-h6 text-weight-light gt-sm">
           <router-link to="/" tag="span" style="cursor: pointer">
             Safe Motherhood Foundation
           </router-link>
@@ -68,25 +68,46 @@
             <div class="col-md-6 col-sm-12 col-xs-12">
               <div class="row">
                 <div class="col-md-4 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-                  <div class="text-body1 text-bold">NAVIGATION</div>
-                  <div class="text-body1 q-mt-md cursor-pointer">Home</div>
-                  <div class="text-body1 q-mt-md cursor-pointer">About Us</div>
-                  <div class="text-body1 q-mt-md cursor-pointer">Donate</div>
-                  <div class="text-body1 q-mt-md cursor-pointer">
+                  <div class="text-body1 text-bold text-yellow-12">
+                    NAVIGATION
+                  </div>
+                  <div
+                    @click="$router.push('/')"
+                    class="text-body1 q-mt-md cursor-pointer"
+                  >
+                    Home
+                  </div>
+                  <div
+                    @click="$router.push('/about')"
+                    class="text-body1 q-mt-md cursor-pointer"
+                  >
+                    About Us
+                  </div>
+                  <div
+                    @click="$router.push('/product')"
+                    class="text-body1 q-mt-md cursor-pointer"
+                  >
+                    Products
+                  </div>
+                  <div
+                    @click="$router.push('/donate')"
+                    class="text-body1 q-mt-md cursor-pointer"
+                  >
+                    Donate
+                  </div>
+                  <div
+                    @click="$router.push('/contact')"
+                    class="text-body1 q-mt-md cursor-pointer"
+                  >
                     Contact Us
                   </div>
                 </div>
                 <div class="col-md-4 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-                  <div class="text-body1 text-bold my-font">LEGAL</div>
-                  <div class="text-body1 q-mt-md cursor-pointer">
-                    Terms and Agreement
+                  <div
+                    class="text-body1 typo1 text-bold my-font text-yellow-12"
+                  >
+                    CONNECT
                   </div>
-                  <div class="text-body1 typo1 q-mt-md cursor-pointer">
-                    Privacy Policy
-                  </div>
-                </div>
-                <div class="col-md-4 col-sm-12 col-xs-12 q-pt-md my-font-nav">
-                  <div class="text-body1 typo1 text-bold my-font">CONNECT</div>
                   <div class="text-body1 typo1 q-mt-md">support@sfm.com</div>
                   <div class="text-body1 typo1 q-mt-md">+234 805 555 5555</div>
                 </div>
@@ -97,14 +118,15 @@
       </div>
     </q-footer>
 
-    <!-- <q-drawer v-model="leftDrawerOpen" :width="250" content-class="bg-primary">
+    <q-drawer v-model="leftDrawerOpen" :width="250">
       <q-list>
-        <q-item-label header class="text-white text-h5 text-weight-light">
-          #SMF
+        <q-item-label header class="text-brown text-h5 text-weight-light">
+          SMF
         </q-item-label>
 
         <q-item
-          class="text-grey-5"
+          active-class="bg-brown"
+          class="text-brown"
           v-for="link in essentialLinks"
           :key="link.id"
           :to="link.to"
@@ -120,7 +142,7 @@
           </q-item-section>
         </q-item>
       </q-list>
-    </q-drawer> -->
+    </q-drawer>
 
     <q-page-container>
       <router-view />
@@ -149,8 +171,8 @@ export default {
           to: "/about",
         },
         {
-          label: "Product",
-          icon: "favorite",
+          label: "Products",
+          icon: "money",
           to: "/product",
         },
 

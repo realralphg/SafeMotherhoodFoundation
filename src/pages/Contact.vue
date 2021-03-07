@@ -29,7 +29,7 @@
                 <q-input type="text" square outlined label="Your Name*" />
               </div>
             </div>
-            <div class="row justify-center  q-mb-md">
+            <div class="row justify-center q-mb-md">
               <div class="col-6">
                 <q-input type="email" square outlined label="Your Email*" />
               </div>
@@ -45,7 +45,7 @@
               </div>
             </div>
             <div class="row justify-center q-my-md">
-              <div class="col-2">
+              <div class="col-6">
                 <q-btn outline color="black" class="text-black text-capitalize"
                   >Send Message</q-btn
                 >
@@ -62,8 +62,8 @@
 export default {
   data: () => ({
     slide: "style",
-    lorem: "Lorem ipsum dolor,"
-  })
+    lorem: "Lorem ipsum dolor,",
+  }),
 };
 </script>
 

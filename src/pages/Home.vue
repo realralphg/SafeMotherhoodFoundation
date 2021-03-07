@@ -2,10 +2,11 @@
   <div>
     <header class="custom__header column justify-center items-center">
       <h3 class="text-white text-h2 text-weight-bolder custom__heading-white">
-        <span class="text-brown">Safe</span>
-        <span class="text-yellow-12">Motherhood</span>
-        <span class="text-light-green-13">Foundation</span>
+        <span class="text-brown">S</span>
+        <span class="text-yellow-12">M</span>
+        <span class="text-light-green-13">F</span>
       </h3>
+      <span class="text-h6 text-white">Safe Motherhood Foundation</span>
       <span
         class="text-white text-subtitle1 text-weight-light q-mt-md q-px-xl text-center"
       >
@@ -19,19 +20,16 @@
     <section class="section__about-us">
       <div class="custom__container">
         <div class="row">
-          <q-card class="col custom__card-negative-margin" bordered flat square>
+          <q-card class="col-md-6 col-sm-12 col-xs-12" bordered flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Mothers
             </div>
-            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/maternity.svg" height="50" width="50" alt="" />
           </q-card>
-          <q-card class="col custom__card-negative-margin" bordered flat square>
+          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Babies
             </div>
-
-            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img
               src="/images/baby.svg"
               height="50"
@@ -40,18 +38,16 @@
               class="q-mb-sm"
             />
           </q-card>
-          <q-card class="col custom__card-negative-margin" bordered flat square>
+          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Family
             </div>
-            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img src="/images/family.svg" height="50" width="50" alt="" />
           </q-card>
-          <q-card class="col custom__card-negative-margin" bordered flat square>
+          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Life
             </div>
-            <!-- <q-separator class="q-my-md"></q-separator> -->
             <img
               src="/images/life-insurance.svg"
               height="50"
@@ -66,18 +62,18 @@
           About <span class="text-weight-bolder">Us</span>
         </h3>
         <div class="row items-center">
-          <v-col class="col">
+          <div class="col-md-6 col-sm-12 col-xs-12">
             <iframe
-              width="560"
+              width="100%"
               height="315"
               src="https://www.youtube.com/embed/236BC-Dt1rY"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
-          </v-col>
-          <v-col class="col">
-            <q-card class="col" flat square>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <q-card flat square>
               <div class="text-subtitle1 text-weight-light text-center q-pa-md">
                 Safe Motherhood Foundation was established by Dr Joe Adejo. This
                 vision was borne out of pain and anguish over the devastating
@@ -95,7 +91,7 @@
                 a healthy child.
               </div>
             </q-card>
-          </v-col>
+          </div>
         </div>
       </div>
     </section>
@@ -122,25 +118,25 @@
         inactions that can lead to having babies with major health crisis.
       </p>
       <div class="row q-gutter-none q-mt-md">
-        <div class="col custom__preg">
+        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
           <!-- <figure class="meal-photo"> -->
-          <img src="/images/preg1.jpg" height="200px" width="100%" />
+          <q-img src="/images/preg1.jpg" height="200px" width="100%"></q-img>
           <!-- </figure> -->
         </div>
-        <div class="col custom__preg">
-          <img src="/images/preg2.jpg" height="200px" width="100%" />
+        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+          <q-img src="/images/preg2.jpg" height="200px" width="100%"></q-img>
         </div>
-        <div class="col custom__preg">
-          <img src="/images/preg3.jpg" height="200px" width="100%" />
+        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+          <q-img src="/images/preg3.jpg" height="200px" width="100%"></q-img>
         </div>
-        <div class="col custom__preg">
-          <img src="/images/preg6.jpg" height="200px" width="100%" />
+        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+          <q-img src="/images/preg6.jpg" height="200px" width="100%"></q-img>
         </div>
       </div>
     </section>
     <section class="section__mission">
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-sm-12 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
@@ -157,7 +153,7 @@
             </p>
           </q-card>
         </div>
-        <div class="col">
+        <div class="col-md-6 col-sm-12 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
@@ -178,7 +174,7 @@
       class="section__features row justify-center items-center bg-yellow-12 q-pa-xl"
     >
       <div class="row">
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="row justify-center items-center">
             <img src="/images/briefing.svg" height="50" width="50" alt="" />
           </div>
@@ -188,11 +184,11 @@
             Campaigns
           </h3>
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
-            To create and provide maternal health educational materials for the
-            sensitization through campaigns.
+            We create awareness on healthy lifestyle for women before, during
+            and after childbirth to ensure swift, safe and assured delivery.
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="row justify-center items-center">
             <img src="/images/work.svg" height="50" width="50" alt="" />
           </div>
@@ -202,11 +198,11 @@
             Sensitization
           </h3>
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            minima optio commodi repellat enim ea!
+            Over the years we have sensitized women on the need for proper
+            ante-natal care as a pathway to healthy and safe childbirth.
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="row justify-center items-center">
             <img src="/images/seminar.svg" height="50" width="50" alt="" />
           </div>
@@ -216,11 +212,11 @@
             Seminars
           </h3>
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
-            To create and provide maternal health educational materials for the
-            sensitization through seminars.
+            We create and provide maternal health educational materials for
+            sensitization through regular seminars.
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <div class="row justify-center items-center">
             <img src="/images/empowerment.svg" height="50" width="50" alt="" />
           </div>
@@ -230,8 +226,9 @@
             Empowerment Programmes
           </h3>
           <div class="subtitle1 text-weight-light text-center q-my-md q-mx-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            minima optio commodi repellat enim ea!
+            We have initiated and monitored various skill acquisition programmes
+            for women across several communities in Nothern Nigeria especially
+            in rural areas.
           </div>
         </div>
       </div>
@@ -266,11 +263,6 @@ ul {
 }
 .custom__header {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
-    url("/images/preg5.jpg");
-  -webkit-background: linear-gradient(
-      rgba(0, 148, 50, 0.9),
-      rgba(0, 148, 146, 0.7)
-    ),
     url("/images/preg5.jpg");
   background-size: cover;
   background-attachment: fixed;

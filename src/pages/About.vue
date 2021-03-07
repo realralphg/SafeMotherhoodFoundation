@@ -17,50 +17,12 @@
     <section class="section__about-us">
       <div class="custom__container">
         <div class="row">
-          <div class="col-3 row items-center">
-            <!-- <div class="q-pa-md">
-              <div class="q-gutter-md">
-                <q-carousel
-                  vertical
-                  autoplay
-                  infinite
-                  v-model="slide"
-                  transition-prev="scale"
-                  transition-next="scale"
-                  swipeable
-                  animated
-                  control-color="black"
-                  navigation
-                  padding
-                  height="300px"
-                  class="bg-white black-white shadow-1 rounded-borders"
-                >
-                  <q-carousel-slide
-                    name="style"
-                    class="column no-wrap flex-center"
-                  >
-                    <img src="/images/fem1.svg" height="100%" width="100%" />
-                  </q-carousel-slide>
-                  <q-carousel-slide
-                    name="style2"
-                    class="column no-wrap flex-center"
-                  >
-                    <img src="/images/fem2.svg" height="100%" width="100%" />
-                  </q-carousel-slide>
-                  <q-carousel-slide
-                    name="style3"
-                    class="column no-wrap flex-center"
-                  >
-                    <img src="/images/fem3.svg" height="100%" width="100%" />
-                  </q-carousel-slide>
-                </q-carousel>
-              </div>
-            </div> -->
+          <div class="col-md-3 col-sm-12 col-xs-12 row items-center">
             <q-card flat square :style="{ height: '300px' }">
               <img src="/images/fem1.svg" height="100%" width="100%" />
             </q-card>
           </div>
-          <div class="col-9">
+          <div class="col-md-9 col-sm-12 col-xs-12">
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
             >
@@ -101,7 +63,7 @@
     <section class="section__about-us">
       <div class="custom__container">
         <div class="row">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12 col-xs-12">
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
             >
@@ -132,7 +94,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-4 row items-center">
+          <div class="col-md-4 col-sm-12 col-xs-12 row items-center">
             <q-card flat square :style="{ height: '300px' }">
               <img src="/images/objective1.svg" height="100%" width="100%" />
             </q-card>
@@ -144,7 +106,7 @@
       class="section__features row justify-center items-center bg-brown text-white q-pa-xl"
     >
       <div class="row">
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h4 text-weight-bolder custom__heading-white"
           >
@@ -154,7 +116,7 @@
             Pregnant women attended to in Kaduna State
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h4 text-weight-bolder custom__heading-white"
           >
@@ -165,7 +127,7 @@
             beneficiaries
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h4 text-weight-bolder custom__heading-white"
           >
@@ -176,7 +138,7 @@
             beneficiaries
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h4 text-weight-bolder custom__heading-white"
           >
@@ -191,7 +153,7 @@
     </section>
     <section class="section__activities">
       <div class="row">
-        <div class="col">
+        <div class="col-sm-6 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
@@ -211,7 +173,7 @@
             </ul>
           </q-card>
         </div>
-        <div class="col">
+        <div class="col-md-3 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
@@ -240,14 +202,16 @@
           <span class="text-weight-bolder">The CEO</span>
         </h3>
         <div class="row">
-          <div class="col-3 row items-center justify-center">
+          <div
+            class="col-md-3 col-sm-12 col-xs-12 row items-center justify-center"
+          >
             <q-card flat square :style="{ height: '300px' }">
               <img src="/images/ceo.jpeg" height="100%" width="100%" />
             </q-card>
           </div>
-          <div class="col-9">
+          <div class="col-md-9 col-sm-12 col-xs-12">
             <div class="row">
-              <div class="col">
+              <div class="col-md-6 col-sm-12 col-xs-12">
                 <div class="text-h4 text-weight-bolder text-brown">
                   JOE ADEJO
                 </div>
@@ -294,7 +258,7 @@
                   </ul>
                 </div>
               </div>
-              <div class="col q-pa-sm">
+              <div class="col-md-6 col-sm-12 col-xs-12 q-pa-sm">
                 <div>
                   <span class="text-weight-bold">Skills: </span>
                   <span class="text-brown"
@@ -353,8 +317,8 @@
 export default {
   data: () => ({
     slide: "style",
-    lorem: "Lorem ipsum dolor,"
-  })
+    lorem: "Lorem ipsum dolor,",
+  }),
 };
 </script>
 

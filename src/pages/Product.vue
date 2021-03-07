@@ -2,7 +2,7 @@
   <div class="bg-white">
     <header class="custom__header-variant2 column justify-center items-center">
       <h3 class="text-white text-h2 text-weight-bolder custom__heading-white">
-        <span class="text-white">Product</span>
+        <span class="text-white">Products</span>
       </h3>
       <span
         class="text-white text-subtitle1 text-weight-light q-mt-md q-px-xl text-center"
@@ -24,17 +24,17 @@
               Our
               <span class="text-weight-bolder">Books</span>
             </h3>
-            <div class="row q-gutter-xl">
-              <div class="col">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book1.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book2.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book3.jpg" contain />
               </div>
-              <div class="col">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
                 <q-img height="300px" src="/images/book4.jpg" contain />
               </div>
             </div>
@@ -48,10 +48,10 @@
               Our
               <span class="text-weight-bolder">Audio Books</span>
             </h3>
-            <div class="row q-gutter-xl">
-              <div class="col">
+            <div class="row justify-around q-gutter-md q-px-lg">
+              <div class="col-md-6 col-sm-12 col-xs-12">
                 <iframe
-                  width="560"
+                  width="100%"
                   height="315"
                   src="https://www.youtube.com/embed/Z0ZP8v3o3mc"
                   frameborder="0"
@@ -59,9 +59,9 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <div class="col">
+              <div class="col-md-6 col-sm-12 col-xs-12">
                 <iframe
-                  width="560"
+                  width="100%"
                   height="315"
                   src="https://www.youtube.com/embed/x9njHNFHUOg"
                   frameborder="0"
@@ -72,49 +72,45 @@
             </div>
           </div>
         </div>
-        <div class="row q-py-sm">
+        <div class="row">
           <div class="col">
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
             >
               <span class="text-weight-bolder">Gallery</span>
             </h3>
-            <div class="row q-gutter-sm q-px-sm">
-              <div class="col">
-                <q-card height="300px" class="q-pa-sm bg-grey-2" flat square>
-                  <q-img height="100%" src="/images/book5.jpg" width="100%" />
-                </q-card>
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
+                <q-img height="300px" src="/images/book5.jpg" />
               </div>
-              <div class="col">
-                <q-card height="300px" class="q-pa-sm bg-grey-2" flat square>
-                  <q-img height="100%" src="/images/book6.jpg" width="100%" />
-                </q-card>
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
+                <q-img height="300px" src="/images/book6.jpg" />
               </div>
-            </div>
-            <div class="row q-gutter-sm q-pa-sm">
-              <div class="col">
-                <q-card class="q-pa-sm bg-grey-2" flat square>
-                  <q-img height="300px" src="/images/book7.jpg" width="100%" />
-                </q-card>
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
+                <q-img height="300px" src="/images/book7.jpg" />
               </div>
-              <div class="col">
-                <q-card class="q-pa-sm bg-grey-2" flat square>
-                  <q-img height="300px" src="/images/book8.jpg" width="100%" />
-                </q-card>
+              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
+                <q-img height="300px" src="/images/book8.jpg" />
               </div>
-            </div>
-            <div class="row q-py-sm justify-center items-center">
-              <q-btn outline color="black" class="text-black text-capitalize"
-                >Contact Us For Full Books</q-btn
-              >
-              <span class="q-mx-xl text-weight-bold text-h6">OR</span>
-              <q-btn
-                color="black"
-                class="text-white text-capitalize"
-                label="Donate Here"
-              />
             </div>
           </div>
+        </div>
+        <div class="row q-py-sm justify-center">
+          <div class="col-md-3 col-sm-6 col-xs-12">
+            <q-btn outline color="black" class="text-black text-capitalize"
+              >Contact Us For Full Books</q-btn
+            >
+            <span class="q-mx-sm text-weight-bold text-h6">OR</span>
+            <q-btn
+              color="black"
+              class="text-white text-capitalize"
+              label="Donate Here"
+            />
+          </div>
+          <!-- <div class="col">
+          </div>
+          <div class="col">
+          </div> -->
         </div>
       </div>
     </section>
