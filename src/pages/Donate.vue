@@ -40,6 +40,30 @@
           </div>
         </div>
         <div class="row">
+          <div class="col">
+            <h3
+              class="text-center text-h5 text-weight-light custom__heading-black"
+            >
+              Our
+              <span class="text-weight-bolder">Books</span>
+            </h3>
+            <div class="row q-gutter-xl">
+              <div class="col">
+                <q-img height="300px" src="/images/book1.jpg" contain />
+              </div>
+              <div class="col">
+                <q-img height="300px" src="/images/book2.jpg" contain />
+              </div>
+              <div class="col">
+                <q-img height="300px" src="/images/book3.jpg" contain />
+              </div>
+              <div class="col">
+                <q-img height="300px" src="/images/book4.jpg" contain />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-8">
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
@@ -83,8 +107,8 @@
 export default {
   data: () => ({
     slide: "style",
-    lorem: "Lorem ipsum dolor,"
-  })
+    lorem: "Lorem ipsum dolor,",
+  }),
 };
 </script>
 

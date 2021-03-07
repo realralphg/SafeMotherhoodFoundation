@@ -65,16 +65,16 @@
         <h3 class="text-center text-h5 text-weight-light custom__heading-black">
           About <span class="text-weight-bolder">Us</span>
         </h3>
-        <div class="row">
+        <div class="row items-center">
           <v-col class="col">
-            <q-card flat square>
-              <img
-                src="images/undraw_baby.svg"
-                alt="brandimage"
-                height="400px"
-                width="100%"
-              />
-            </q-card>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/236BC-Dt1rY"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </v-col>
           <v-col class="col">
             <q-card class="col" flat square>
@@ -146,7 +146,7 @@
           >
             Our <span class="text-weight-bolder">Mission</span>
           </h3>
-          <q-card flat square class="q-pa-xl bg-black text-white ">
+          <q-card flat square class="q-pa-xl bg-black text-white">
             <p class="q-px-xl text-center text-subtitle1 text-weight-light">
               Our mission is to eliminate maternal mortality and new born
               morbidity by equipping the woman with adequate information to
@@ -243,7 +243,7 @@
 import ModalBook from "components/Dialogs/ModalBook1";
 export default {
   components: {
-    ModalBook
+    ModalBook,
   },
 
   data() {
@@ -254,9 +254,9 @@ export default {
       slid: "moonlove",
       navigation: true,
       navPos: "bottom",
-      slide: 1
+      slide: 1,
     };
-  }
+  },
 };
 </script>
 

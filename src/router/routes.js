@@ -4,18 +4,26 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', 
-        component: () => import('pages/Home.vue') 
+      {
+        path: '',
+        component: () => import('pages/Home.vue')
       },
-      { path: '/about', 
-        component: () => import('pages/About.vue') 
+      {
+        path: '/about',
+        component: () => import('pages/About.vue')
       },
-      { path: '/donate', 
-        component: () => import('pages/Donate.vue') 
-      },             
-      { path: '/contact', 
-        component: () => import('pages/Contact.vue') 
-      },       
+      {
+        path: '/donate',
+        component: () => import('pages/Donate.vue')
+      },
+      {
+        path: '/product',
+        component: () => import('pages/Product.vue')
+      },
+      {
+        path: '/contact',
+        component: () => import('pages/Contact.vue')
+      },
     ]
   },
 
