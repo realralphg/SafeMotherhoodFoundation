@@ -97,7 +97,10 @@
         </div>
         <div class="row q-py-sm justify-center">
           <div class="col-md-3 col-sm-6 col-xs-12">
-            <q-btn outline color="black" class="text-black text-capitalize"
+            <q-btn
+              outline
+              color="black"
+              class="text-black text-capitalize q-my-sm"
               >Contact Us For Full Books</q-btn
             >
             <span class="q-mx-sm text-weight-bold text-h6">OR</span>

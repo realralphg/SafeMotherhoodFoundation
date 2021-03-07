@@ -5,17 +5,88 @@
         <span class="text-yellow-12">Contact Us</span>
       </h3>
       <span
-        class="text-white text-subtitle1 text-weight-light q-mt-md q-px-xl text-center"
+        class="text-white text-h5 text-weight-bold q-mt-md q-px-xl text-center"
       >
-        Our sisters, wives, daughters and new born still die preventable deaths
-        due to poverty, ignorance and inadequate reproductive healthcare
-        delivery throughout the country especially in rural areas - Maternal
-        mortality is a monster that we can jointly defeat. <br />-
-        <span class="text-h6 text-weight-light"> Joe Adejo</span></span
+        hi@safemotherhoodfdn.org</span
+      >
+      <span
+        class="text-white text-h5 text-weight-bold q-mt-md q-px-xl text-center"
+      >
+        +2348034057915, +2348054464343</span
+      >
+      <span
+        class="text-white text-h6 text-weight-bold q-mt-md q-px-xl text-center"
+      >
+        15B, Jolly Tanko Road, Barnawa, Kaduna - Nigeria</span
       >
     </header>
     <section class="section__about-us">
       <div class="custom__container">
+        <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+          Consulting
+          <span class="text-weight-bolder">Professionals</span>
+        </h3>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 col-xs-sm">
+            <div class="column items-center">
+              <q-avatar size="200px">
+                <img src="/images/makunjola.jpg" />
+              </q-avatar>
+              <span class="text-h6">Dr. Makanjuola A. Owolabi</span>
+              <span class="body1">
+                MBBS, D Av Med, MRAeS, FRSM MACOEM, FWACP (Int. Med -Med),
+                FAsMA, FIMC
+              </span>
+              <span class="body2">
+                Aerospace / Aviation Medicine & Human Factors
+              </span>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-sm">
+            <div class="column items-center">
+              <q-avatar size="200px">
+                <img src="/images/caleb1.jpg" />
+              </q-avatar>
+              <span class="text-h6">Dr. Caleb Mohammed (MBBS FWACS)</span>
+              <span class="body1">
+                Senior Lecturer & Consultant Obstetrician / Gynecologist
+              </span>
+              <span class="body2">
+                Barau Dikko Teaching Hospital, Kaduna State
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row q-my-xl">
+          <div class="col-md-4 col-sm-12 col-xs-sm">
+            <div class="column items-center">
+              <q-avatar size="200px">
+                <img src="/images/placeholder.jpg" />
+              </q-avatar>
+              <span class="text-h6">Dr. Ejeh Paul Ogwuche</span>
+              <span class="body1"
+                >MBBS ; FMCOG (Fellow of the national post graduate medical
+                college of Nigeria( Obstetrics & gynaecology)
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-sm">
+            <div class="column items-center">
+              <q-avatar size="200px">
+                <img src="/images/placeholder.jpg" />
+              </q-avatar>
+              <span class="text-h6">Dr. Musa Philomena BmB ch Jos, 1990</span>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-sm">
+            <div class="column items-center">
+              <q-avatar size="200px">
+                <img src="/images/placeholder.jpg" />
+              </q-avatar>
+              <span class="text-h6">Professor Lydia Airede</span>
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col">
             <h3

@@ -108,8 +108,11 @@
                   >
                     CONNECT
                   </div>
-                  <div class="text-body1 typo1 q-mt-md">support@sfm.com</div>
-                  <div class="text-body1 typo1 q-mt-md">+234 805 555 5555</div>
+                  <div class="text-body1 typo1 q-mt-md">
+                    hi@safemotherhoodfdn.org
+                  </div>
+                  <div class="text-body1 typo1 q-mt-md">+234 803 405 7915</div>
+                  <div class="text-body1 typo1 q-mt-md">+234 805 446 4343</div>
                 </div>
               </div>
             </div>
