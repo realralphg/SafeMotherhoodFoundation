@@ -40,59 +40,67 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <h3
-              class="text-center text-h5 text-weight-light custom__heading-black"
-            >
-              Our
-              <span class="text-weight-bolder">Audio Books</span>
-            </h3>
-            <div class="row justify-around q-gutter-md q-px-lg">
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <iframe
-                  width="100%"
-                  height="315"
-                  src="https://www.youtube.com/embed/Z0ZP8v3o3mc"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-              <div class="col-md-6 col-sm-12 col-xs-12">
-                <iframe
-                  width="100%"
-                  height="315"
-                  src="https://www.youtube.com/embed/x9njHNFHUOg"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
-              </div>
-            </div>
+        <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+          Our <span class="text-weight-bolder">Audio Books</span>
+        </h3>
+        <div class="row items-center q-px-sm">
+          <div class="col-md-6 col-sm-12 col-xs-12 q-pr-sm">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/Z0ZP8v3o3mc"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 q-pl-sm">
+            <iframe
+              width="100%"
+              height="315"
+              src="https://www.youtube.com/embed/x9njHNFHUOg"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <h3
-              class="text-center text-h5 text-weight-light custom__heading-black"
+        <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+          <span class="text-weight-bolder">Gallery</span>
+        </h3>
+        <div class="row items-center">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <q-carousel
+              animated
+              v-model="slide"
+              navigation
+              infinite
+              :autoplay="true"
+              arrows
+              :fullscreen.sync="fullscreen"
+              transition-prev="slide-right"
+              transition-next="slide-left"
+              @mouseenter="autoplay = false"
+              @mouseleave="autoplay = true"
             >
-              <span class="text-weight-bolder">Gallery</span>
-            </h3>
-            <div class="row">
-              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
-                <q-img height="300px" src="/images/book5.jpg" />
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
-                <q-img height="300px" src="/images/book6.jpg" />
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
-                <q-img height="300px" src="/images/book7.jpg" />
-              </div>
-              <div class="col-md-3 col-sm-6 col-xs-12 q-py-md">
-                <q-img height="300px" src="/images/book8.jpg" />
-              </div>
-            </div>
+              <q-carousel-slide :name="1" img-src="/images/book5.jpg" />
+              <q-carousel-slide :name="2" img-src="/images/book6.jpg" />
+              <q-carousel-slide :name="3" img-src="/images/book7.jpg" />
+              <q-carousel-slide :name="4" img-src="/images/book8.jpg" />
+              <template v-slot:control>
+                <q-carousel-control position="bottom-right" :offset="[18, 18]">
+                  <q-btn
+                    push
+                    round
+                    dense
+                    color="white"
+                    text-color="primary"
+                    :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
+                    @click="fullscreen = !fullscreen"
+                  />
+                </q-carousel-control>
+              </template>
+            </q-carousel>
           </div>
         </div>
         <div class="row q-py-sm justify-center">
@@ -123,8 +131,14 @@
 <script>
 export default {
   data: () => ({
-    slide: "style",
-    lorem: "Lorem ipsum dolor,",
+    book: false,
+    model: 4,
+    // for Carousel
+    slid: "moonlove",
+    navigation: true,
+    navPos: "bottom",
+    slide: 1,
+    fullscreen: false,
   }),
 };
 </script>

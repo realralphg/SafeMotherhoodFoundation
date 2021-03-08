@@ -170,6 +170,94 @@
         </div>
       </div>
     </section>
+    <section class="q-my-md">
+      <div class="custom__container">
+        <h3 class="text-center text-h5 text-weight-light custom__heading-black">
+          Skill Acquisition and Empowerment
+          <span class="text-weight-bolder">Programmes</span>
+        </h3>
+        <div class="row items-center">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <q-carousel
+              animated
+              v-model="slide"
+              navigation
+              infinite
+              :autoplay="true"
+              arrows
+              :fullscreen.sync="fullscreen"
+              transition-prev="slide-right"
+              transition-next="slide-left"
+              @mouseenter="autoplay = false"
+              @mouseleave="autoplay = true"
+            >
+              <q-carousel-slide :name="1" img-src="/images/slides/slide1.jpg" />
+              <q-carousel-slide :name="2" img-src="/images/slides/slide2.jpg" />
+              <q-carousel-slide :name="3" img-src="/images/slides/slide3.jpg" />
+              <q-carousel-slide :name="4" img-src="/images/slides/slide4.jpg" />
+              <q-carousel-slide :name="5" img-src="/images/slides/slide5.jpg" />
+              <q-carousel-slide :name="6" img-src="/images/slides/slide6.jpg" />
+              <q-carousel-slide :name="7" img-src="/images/slides/slide7.jpg" />
+              <q-carousel-slide :name="8" img-src="/images/slides/slide8.jpg" />
+              <q-carousel-slide :name="9" img-src="/images/slides/slide9.jpg" />
+              <q-carousel-slide
+                :name="10"
+                img-src="/images/slides/slide10.jpg"
+              />
+              <q-carousel-slide
+                :name="11"
+                img-src="/images/slides/slide11.jpg"
+              />
+              <q-carousel-slide
+                :name="12"
+                img-src="/images/slides/slide12.jpg"
+              />
+              <q-carousel-slide
+                :name="13"
+                img-src="/images/slides/slide13.jpg"
+              />
+              <q-carousel-slide
+                :name="14"
+                img-src="/images/slides/slide14.jpg"
+              />
+              <q-carousel-slide
+                :name="15"
+                img-src="/images/slides/slide15.jpg"
+              />
+              <q-carousel-slide
+                :name="16"
+                img-src="/images/slides/slide16.jpg"
+              />
+              <q-carousel-slide
+                :name="17"
+                img-src="/images/slides/slide17.jpg"
+              />
+              <q-carousel-slide
+                :name="18"
+                img-src="/images/slides/slide18.jpg"
+              />
+              <q-carousel-slide
+                :name="19"
+                img-src="/images/slides/slide19.jpg"
+              />
+              <template v-slot:control>
+                <q-carousel-control position="bottom-right" :offset="[18, 18]">
+                  <q-btn
+                    push
+                    round
+                    dense
+                    color="white"
+                    text-color="primary"
+                    :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
+                    @click="fullscreen = !fullscreen"
+                  />
+                </q-carousel-control>
+              </template>
+            </q-carousel>
+          </div>
+        </div>
+      </div>
+    </section>
     <section
       class="section__features row justify-center items-center bg-yellow-12 q-pa-xl"
     >
@@ -237,11 +325,8 @@
 </template>
 
 <script>
-import ModalBook from "components/Dialogs/ModalBook1";
 export default {
-  components: {
-    ModalBook,
-  },
+  components: {},
 
   data() {
     return {
@@ -252,6 +337,7 @@ export default {
       navigation: true,
       navPos: "bottom",
       slide: 1,
+      fullscreen: false,
     };
   },
 };

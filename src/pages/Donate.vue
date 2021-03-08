@@ -76,18 +76,38 @@
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Account Name:</span>
                   <span class="text-weight-light"
-                    >Safe Motherhood Foundation</span
+                    >Safe Motherhood Foundation (Naira)</span
                   >
                 </li>
                 <li>
                   <span class="text-weight-bolder q-mr-sm"
                     >Account Number:</span
                   >
-                  <span class="text-weight-light">0000000000</span>
+                  <span class="text-weight-light">4212000127</span>
                 </li>
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Bank Name:</span>
-                  <span class="text-weight-light">Guaranteed Trust Bank</span>
+                  <span class="text-weight-light">Ecobank</span>
+                </li>
+              </ul>
+            </div>
+            <div class="text-subtitle1 text-weight-light q-pa-md">
+              <ul>
+                <li>
+                  <span class="text-weight-bolder q-mr-sm">Account Name:</span>
+                  <span class="text-weight-light"
+                    >Safe Motherhood Foundation (Dollar)</span
+                  >
+                </li>
+                <li>
+                  <span class="text-weight-bolder q-mr-sm"
+                    >Account Number:</span
+                  >
+                  <span class="text-weight-light">3842020903</span>
+                </li>
+                <li>
+                  <span class="text-weight-bolder q-mr-sm">Bank Name:</span>
+                  <span class="text-weight-light">Ecobank</span>
                 </li>
               </ul>
             </div>
