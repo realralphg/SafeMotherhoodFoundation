@@ -70,7 +70,7 @@
               Our
               <span class="text-weight-bolder">Objectives</span>
             </h3>
-            <div class="text-subtitle1 text-weight-light q-pa-md">
+            <div class="text-subtitle1 text-weight-light">
               <ul>
                 <li>
                   To create and provide maternal health educational materials
@@ -153,18 +153,14 @@
     </section>
     <section class="section__activities">
       <div class="row">
-        <div class="col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
             Our
             <span class="text-weight-bolder">Activities</span>
           </h3>
-          <q-card
-            square
-            flat
-            class="bg-white text-subtitle1 text-weight-light row justify-center"
-          >
+          <q-card square flat class="bg-white text-subtitle1 text-weight-light">
             <ul>
               <li>Seminars</li>
               <li>Empowerment Programmes</li>
@@ -173,18 +169,14 @@
             </ul>
           </q-card>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-12">
           <h3
             class="text-center text-h5 text-weight-light custom__heading-black"
           >
             Our
             <span class="text-weight-bolder">Projects</span>
           </h3>
-          <q-card
-            square
-            flat
-            class="bg-white text-subtitle1 text-weight-light row justify-center"
-          >
+          <q-card square flat class="bg-white text-subtitle1 text-weight-light">
             <ul>
               <li>Swift Childbirth</li>
               <li>Introduction to Swift Childbirth Graphics</li>
@@ -195,7 +187,7 @@
         </div>
       </div>
     </section>
-    <section class="section__about-ceo">
+    <section class="section__about-ceo custom__container">
       <div>
         <h3 class="text-center text-h5 text-weight-light custom__heading-black">
           About
@@ -206,7 +198,7 @@
             class="col-md-3 col-sm-12 col-xs-12 row items-center justify-center"
           >
             <q-card flat square :style="{ height: '300px' }">
-              <img src="/images/ceo.jpeg" height="100%" width="100%" />
+              <img src="/images/ceo.jpeg" height="300px" width="100%" />
             </q-card>
           </div>
           <div class="col-md-9 col-sm-12 col-xs-12">
@@ -356,6 +348,10 @@ export default {
   margin: 0 auto;
   margin-top: 20px;
   /* margin-bottom: 30px; */
+}
+
+.custom__container {
+  margin: 0 10% !important;
 }
 
 .my-card {

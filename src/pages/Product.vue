@@ -68,39 +68,20 @@
         <h3 class="text-center text-h5 text-weight-light custom__heading-black">
           <span class="text-weight-bolder">Gallery</span>
         </h3>
-        <div class="row items-center">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <q-carousel
-              animated
-              v-model="slide"
-              navigation
-              infinite
-              :autoplay="true"
-              arrows
-              :fullscreen.sync="fullscreen"
-              transition-prev="slide-right"
-              transition-next="slide-left"
-              @mouseenter="autoplay = false"
-              @mouseleave="autoplay = true"
-            >
-              <q-carousel-slide :name="1" img-src="/images/book5.jpg" />
-              <q-carousel-slide :name="2" img-src="/images/book6.jpg" />
-              <q-carousel-slide :name="3" img-src="/images/book7.jpg" />
-              <q-carousel-slide :name="4" img-src="/images/book8.jpg" />
-              <template v-slot:control>
-                <q-carousel-control position="bottom-right" :offset="[18, 18]">
-                  <q-btn
-                    push
-                    round
-                    dense
-                    color="white"
-                    text-color="primary"
-                    :icon="fullscreen ? 'fullscreen_exit' : 'fullscreen'"
-                    @click="fullscreen = !fullscreen"
-                  />
-                </q-carousel-control>
-              </template>
-            </q-carousel>
+        <div class="row q-gutter-none q-mt-md">
+          <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
+            <!-- <figure class="meal-photo"> -->
+            <q-img src="/images/book5.jpg" height="200px" width="100%"></q-img>
+            <!-- </figure> -->
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
+            <q-img src="/images/book6.jpg" height="200px" width="100%"></q-img>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
+            <q-img src="/images/book7.jpg" height="200px" width="100%"></q-img>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
+            <q-img src="/images/book8.jpg" height="200px" width="100%"></q-img>
           </div>
         </div>
         <div class="row q-py-sm justify-center">

@@ -17,34 +17,36 @@
         <span class="text-h6 text-weight-light"> Joe Adejo</span></span
       >
     </header>
-    <section class="section__about-us">
-      <div class="custom__container">
-        <div class="row">
-          <q-card class="col-md-6 col-sm-12 col-xs-12" bordered flat square>
+    <section class="custom__container">
+      <div class="row q-py-sm">
+        <div class="col-md-3 col-sm-12 col-xs-12 flex justify-center q-my-sm">
+          <q-card style="width: 90%" class="q-py-sm bg-yellow-12" flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Mothers
             </div>
             <img src="/images/maternity.svg" height="50" width="50" alt="" />
           </q-card>
-          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
+        </div>
+        <div class="col-md-3 col-sm-12 col-xs-12 flex justify-center q-my-sm">
+          <q-card style="width: 90%" class="q-py-sm bg-yellow-12" flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Healthy Babies
             </div>
-            <img
-              src="/images/baby.svg"
-              height="50"
-              width="50"
-              alt=""
-              class="q-mb-sm"
-            />
+            <img src="/images/baby.svg" height="50" width="50" alt="" />
           </q-card>
-          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
+        </div>
+
+        <div class="col-md-3 col-sm-12 col-xs-12 flex justify-center q-my-sm">
+          <q-card style="width: 90%" class="q-py-sm bg-yellow-12" flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Family
             </div>
             <img src="/images/family.svg" height="50" width="50" alt="" />
           </q-card>
-          <q-card class="col col-md-6 col-sm-12 col-xs-12" bordered flat square>
+        </div>
+
+        <div class="col-md-3 col-sm-12 col-xs-12 flex justify-center q-my-sm">
+          <q-card style="width: 90%" class="q-py-sm bg-yellow-12" flat square>
             <div class="text-h6 text-weight-light text-center q-my-md q-mx-sm">
               Happy Life
             </div>
@@ -57,6 +59,8 @@
           </q-card>
         </div>
       </div>
+    </section>
+    <section class="section__about-us">
       <div class="custom__container">
         <h3 class="text-center text-h5 text-weight-light custom__heading-black">
           About <span class="text-weight-bolder">Us</span>
@@ -118,18 +122,18 @@
         inactions that can lead to having babies with major health crisis.
       </p>
       <div class="row q-gutter-none q-mt-md">
-        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+        <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
           <!-- <figure class="meal-photo"> -->
           <q-img src="/images/preg1.jpg" height="200px" width="100%"></q-img>
           <!-- </figure> -->
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+        <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
           <q-img src="/images/preg2.jpg" height="200px" width="100%"></q-img>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+        <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
           <q-img src="/images/preg3.jpg" height="200px" width="100%"></q-img>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 custom__preg">
+        <div class="col-md-3 col-sm-6 col-xs-12 q-my-sm custom__preg">
           <q-img src="/images/preg6.jpg" height="200px" width="100%"></q-img>
         </div>
       </div>
@@ -143,7 +147,7 @@
             Our <span class="text-weight-bolder">Mission</span>
           </h3>
           <q-card flat square class="q-pa-xl bg-black text-white">
-            <p class="q-px-xl text-center text-subtitle1 text-weight-light">
+            <p class="text-center text-subtitle1 text-weight-light">
               Our mission is to eliminate maternal mortality and new born
               morbidity by equipping the woman with adequate information to
               promote healthy lifestyle, healthy pregnancy and a healthy family.
@@ -160,7 +164,7 @@
             Our <span class="text-weight-bolder">Vision</span>
           </h3>
           <q-card square flat class="q-pa-xl bg-white">
-            <p class="q-px-xl text-center text-subtitle1 text-weight-light">
+            <p class="text-center text-subtitle1 text-weight-light">
               To see that a woman carries her pregnancy to full term, delivers
               her baby and both mother and baby remain healthy through
               postpartum while child lives beyond 5years. Our vision is to bring
@@ -179,6 +183,7 @@
         <div class="row items-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <q-carousel
+              height="500px"
               animated
               v-model="slide"
               navigation
@@ -191,54 +196,40 @@
               @mouseenter="autoplay = false"
               @mouseleave="autoplay = true"
             >
-              <q-carousel-slide :name="1" img-src="/images/slides/slide1.jpg" />
-              <q-carousel-slide :name="2" img-src="/images/slides/slide2.jpg" />
-              <q-carousel-slide :name="3" img-src="/images/slides/slide3.jpg" />
-              <q-carousel-slide :name="4" img-src="/images/slides/slide4.jpg" />
-              <q-carousel-slide :name="5" img-src="/images/slides/slide5.jpg" />
-              <q-carousel-slide :name="6" img-src="/images/slides/slide6.jpg" />
-              <q-carousel-slide :name="7" img-src="/images/slides/slide7.jpg" />
-              <q-carousel-slide :name="8" img-src="/images/slides/slide8.jpg" />
-              <q-carousel-slide :name="9" img-src="/images/slides/slide9.jpg" />
+              <q-carousel-slide :name="1" img-src="/images/slides/slide3.jpg" />
+              <q-carousel-slide :name="2" img-src="/images/slides/slide4.jpg" />
+              <q-carousel-slide :name="3" img-src="/images/slides/slide5.jpg" />
+              <q-carousel-slide :name="4" img-src="/images/slides/slide6.jpg" />
+              <q-carousel-slide :name="5" img-src="/images/slides/slide7.jpg" />
+              <q-carousel-slide :name="6" img-src="/images/slides/slide8.jpg" />
+              <q-carousel-slide :name="7" img-src="/images/slides/slide9.jpg" />
               <q-carousel-slide
-                :name="10"
+                :name="8"
                 img-src="/images/slides/slide10.jpg"
               />
               <q-carousel-slide
-                :name="11"
+                :name="9"
                 img-src="/images/slides/slide11.jpg"
               />
               <q-carousel-slide
-                :name="12"
-                img-src="/images/slides/slide12.jpg"
-              />
-              <q-carousel-slide
-                :name="13"
-                img-src="/images/slides/slide13.jpg"
-              />
-              <q-carousel-slide
-                :name="14"
+                :name="10"
                 img-src="/images/slides/slide14.jpg"
               />
               <q-carousel-slide
-                :name="15"
+                :name="11"
                 img-src="/images/slides/slide15.jpg"
               />
               <q-carousel-slide
-                :name="16"
+                :name="12"
                 img-src="/images/slides/slide16.jpg"
               />
               <q-carousel-slide
-                :name="17"
+                :name="13"
                 img-src="/images/slides/slide17.jpg"
               />
               <q-carousel-slide
-                :name="18"
+                :name="14"
                 img-src="/images/slides/slide18.jpg"
-              />
-              <q-carousel-slide
-                :name="19"
-                img-src="/images/slides/slide19.jpg"
               />
               <template v-slot:control>
                 <q-carousel-control position="bottom-right" :offset="[18, 18]">
@@ -385,7 +376,7 @@ ul {
   margin-top: -6%;
 }
 
-.custom__preg {
+/* .custom__preg {
   width: 100%;
   margin: 0;
   overflow: hidden;
@@ -406,7 +397,7 @@ ul {
   -ms-transform: scale(1.03);
   transform: scale(1.03);
   opacity: 1;
-}
+} */
 
 /* .section__features {
   height: 50vh;

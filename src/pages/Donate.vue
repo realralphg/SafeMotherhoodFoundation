@@ -64,14 +64,14 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-8">
+          <div class="col-md-9 col-sm-12 col-xs-12">
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
             >
               Our
               <span class="text-weight-bolder">Details</span>
             </h3>
-            <div class="text-subtitle1 text-weight-light q-pa-md">
+            <div class="text-subtitle1 text-weight-light q-pa-sm">
               <ul>
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Account Name:</span>
@@ -91,7 +91,7 @@
                 </li>
               </ul>
             </div>
-            <div class="text-subtitle1 text-weight-light q-pa-md">
+            <div class="text-subtitle1 text-weight-light q-pa-sm">
               <ul>
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Account Name:</span>
@@ -112,7 +112,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-4 row items-center">
+          <div class="col-md-3 col-sm-12 col-xs-12 row items-center">
             <q-card flat square :style="{ height: '300px' }">
               <img src="/images/donate.svg" height="100%" width="100%" />
             </q-card>
