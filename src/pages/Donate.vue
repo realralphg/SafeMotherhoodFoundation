@@ -65,6 +65,11 @@
         </div>
         <div class="row">
           <div class="col-md-9 col-sm-12 col-xs-12">
+            <div class="text-center">
+              <q-btn class="q-mt-xl text-primary" no-caps small color="primary" icon="money" type="a" href="https://paystack.com/pay/safemotherhoodfdn/" target="_blank">
+                <span class="q-pl-sm">Click Here to Donate</span>
+              </q-btn> 
+            </div>
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
             >
@@ -95,9 +100,9 @@
               <ul>
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Account Name:</span>
-                  <span class="text-weight-light"
-                    >Safe Motherhood Foundation (Dollar)</span
-                  >
+                  <span class="text-weight-light">
+                    Safe Motherhood Foundation (Dollar)
+                  </span>
                 </li>
                 <li>
                   <span class="text-weight-bolder q-mr-sm"
@@ -109,6 +114,10 @@
                   <span class="text-weight-bolder q-mr-sm">Bank Name:</span>
                   <span class="text-weight-light">Ecobank</span>
                 </li>
+                <li>
+                  <span class="text-weight-bolder q-mr-sm">Sort Code:</span>
+                  <span class="text-weight-light">050110652</span>
+                </li>                
               </ul>
             </div>
           </div>

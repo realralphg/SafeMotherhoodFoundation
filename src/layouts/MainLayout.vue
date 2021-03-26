@@ -113,6 +113,9 @@
                   </div>
                   <div class="text-body1 typo1 q-mt-md">+234 803 405 7915</div>
                   <div class="text-body1 typo1 q-mt-md">+234 805 446 4343</div>
+                  <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://safemotherhoodfdn.org:2096/" target="_blank">
+                    <span class="q-pl-sm">Check Mail</span>
+                  </q-btn> 
                 </div>
               </div>
             </div>
