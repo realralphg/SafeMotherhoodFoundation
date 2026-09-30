@@ -129,23 +129,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    slide: "style",
-    lorem: "Lorem ipsum dolor,",
-  }),
-};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .custom__header-variant3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
     url("/images/contact1.jpg");
-  -webkit-background: linear-gradient(
-      rgba(0, 148, 50, 0.9),
-      rgba(0, 148, 146, 0.7)
-    ),
+  -webkit-background:
+    linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
     url("/images/preg5.jpg");
   background-size: cover;
   background-attachment: fixed;

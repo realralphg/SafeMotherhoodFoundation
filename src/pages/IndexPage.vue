@@ -72,7 +72,14 @@
               height="315"
               src="https://www.youtube.com/embed/236BC-Dt1rY"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
               allowfullscreen
             ></iframe>
           </div>
@@ -315,23 +322,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  components: {},
+<script setup>
+import { ref } from "vue";
 
-  data() {
-    return {
-      book: false,
-      model: 4,
-      // for Carousel
-      slid: "moonlove",
-      navigation: true,
-      navPos: "bottom",
-      slide: 1,
-      fullscreen: false,
-    };
-  },
-};
+const slide = ref(1);
+const fullscreen = ref(false);
 </script>
 
 <style>
@@ -339,7 +334,8 @@ ul {
   list-style-type: square;
 }
 .custom__header {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
     url("/images/preg5.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -375,33 +371,6 @@ ul {
 .custom__card-negative-margin {
   margin-top: -6%;
 }
-
-/* .custom__preg {
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #000;
-}
-
-.custom__preg img {
-  opacity: 0.7;
-  -webkit-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  transform: scale(1.15);
-  -webkit-transition: transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s;
-}
-
-.custom__preg img:hover {
-  -webkit-transform: scale(1.03);
-  -ms-transform: scale(1.03);
-  transform: scale(1.03);
-  opacity: 1;
-} */
-
-/* .section__features {
-  height: 50vh;
-} */
 
 .custom-caption {
   bottom: 50px;

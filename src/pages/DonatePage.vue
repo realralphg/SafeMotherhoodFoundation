@@ -66,9 +66,18 @@
         <div class="row">
           <div class="col-md-9 col-sm-12 col-xs-12">
             <div class="text-center">
-              <q-btn class="q-mt-xl text-primary" no-caps small color="primary" icon="money" type="a" href="https://paystack.com/pay/safemotherhoodfdn/" target="_blank">
+              <q-btn
+                class="q-mt-xl text-primary"
+                no-caps
+                small
+                color="primary"
+                icon="money"
+                type="a"
+                href="https://paystack.com/pay/safemotherhoodfdn/"
+                target="_blank"
+              >
                 <span class="q-pl-sm">Click Here to Donate</span>
-              </q-btn> 
+              </q-btn>
             </div>
             <h3
               class="text-center text-h5 text-weight-light custom__heading-black"
@@ -117,7 +126,7 @@
                 <li>
                   <span class="text-weight-bolder q-mr-sm">Sort Code:</span>
                   <span class="text-weight-light">050110652</span>
-                </li>                
+                </li>
               </ul>
             </div>
           </div>
@@ -132,23 +141,15 @@
   </div>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    slide: "style",
-    lorem: "Lorem ipsum dolor,",
-  }),
-};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .custom__header-variant2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
     url("/images/donate1.jpg");
-  -webkit-background: linear-gradient(
-      rgba(0, 148, 50, 0.9),
-      rgba(0, 148, 146, 0.7)
-    ),
+  -webkit-background:
+    linear-gradient(rgba(0, 148, 50, 0.9), rgba(0, 148, 146, 0.7)),
     url("/images/preg5.jpg");
   background-size: cover;
   background-attachment: fixed;

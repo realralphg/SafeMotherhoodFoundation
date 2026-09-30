@@ -2,36 +2,36 @@
   "name": "smf",
   "version": "0.0.1",
   "description": "Safe Motherhood Foundation",
-  "productName": "smf",
-  "author": "realralphg <mr.ralph01@gmail.com>",
+  "productName": "Safe Motherhood Fdn",
+  "author": "3m1n3nc3 <mygames.ng@gmail.com>",
+  "type": "module",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "postinstall": "quasar prepare --silent"
   },
   "dependencies": {
-    "@quasar/extras": "^1.0.0",
-    "axios": "^0.21.1",
-    "core-js": "^3.6.5",
-    "quasar": "^1.0.0",
-    "vue-i18n": "^8.0.0"
+    "@quasar/extras": "^2.1.0",
+    "quasar": "^2.34.0",
+    "vue": "^3.5.22",
+    "vue-router": "^5.0.6"
   },
   "devDependencies": {
-    "@quasar/app": "^2.0.0"
+    "@quasar/app-vite": "^3.10.1",
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8"
   },
-  "browserslist": [
-    "last 10 Chrome versions",
-    "last 10 Firefox versions",
-    "last 4 Edge versions",
-    "last 7 Safari versions",
-    "last 8 Android versions",
-    "last 8 ChromeAndroid versions",
-    "last 8 FirefoxAndroid versions",
-    "last 10 iOS versions",
-    "last 5 Opera versions"
+  "keywords": [
+    "quasar",
+    "quasar-app",
+    "quasar-cli",
+    "quasar-app-vite",
+    "vite",
+    "vue",
+    "vuejs"
   ],
   "engines": {
-    "node": ">= 10.18.1",
-    "npm": ">= 6.13.4",
-    "yarn": ">= 1.21.1"
+    "node": ">= 26 || ^24 || ^22.12"
   }
 }

@@ -113,9 +113,18 @@
                   </div>
                   <div class="text-body1 typo1 q-mt-md">+234 803 405 7915</div>
                   <div class="text-body1 typo1 q-mt-md">+234 805 446 4343</div>
-                  <q-btn class="q-mt-sm text-primary" no-caps small outline icon="mail" type="a" href="https://safemotherhoodfdn.org:2096/" target="_blank">
+                  <q-btn
+                    class="q-mt-sm text-primary"
+                    no-caps
+                    small
+                    outline
+                    icon="mail"
+                    type="a"
+                    href="https://safemotherhoodfdn.org:2096/"
+                    target="_blank"
+                  >
                     <span class="q-pl-sm">Check Mail</span>
-                  </q-btn> 
+                  </q-btn>
                 </div>
               </div>
             </div>
@@ -156,47 +165,41 @@
   </q-layout>
 </template>
 
-<script>
-export default {
-  name: "MainLayout",
+<script setup>
+import { ref } from "vue";
 
-  data() {
-    return {
-      leftDrawerOpen: false,
-
-      essentialLinks: [
-        {
-          label: "Home",
-          icon: "home",
-          to: "/",
-        },
-
-        {
-          label: "About Us",
-          icon: "groups",
-          to: "/about",
-        },
-        {
-          label: "Products",
-          icon: "money",
-          to: "/product",
-        },
-
-        {
-          label: "Donate",
-          icon: "favorite",
-          to: "/donate",
-        },
-
-        {
-          label: "Contact Us",
-          icon: "phone",
-          to: "/contact",
-        },
-      ],
-    };
+const essentialLinks = [
+  {
+    label: "Home",
+    icon: "home",
+    to: "/",
   },
-};
+
+  {
+    label: "About Us",
+    icon: "groups",
+    to: "/about",
+  },
+  {
+    label: "Products",
+    icon: "money",
+    to: "/product",
+  },
+
+  {
+    label: "Donate",
+    icon: "favorite",
+    to: "/donate",
+  },
+
+  {
+    label: "Contact Us",
+    icon: "phone",
+    to: "/contact",
+  },
+];
+
+const leftDrawerOpen = ref(false);
 </script>
 
 <style scoped>

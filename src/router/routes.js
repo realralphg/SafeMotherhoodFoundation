@@ -1,37 +1,36 @@
-
 const routes = [
   {
     path: '/',
-    component: () => import('layouts/MainLayout.vue'),
+    component: () => import('@/layouts/MainLayout.vue'),
     children: [
       {
         path: '',
-        component: () => import('pages/Home.vue')
+        component: () => import('@/pages/IndexPage.vue')
       },
       {
         path: '/about',
-        component: () => import('pages/About.vue')
+        component: () => import('@/pages/AboutPage.vue')
       },
       {
         path: '/donate',
-        component: () => import('pages/Donate.vue')
+        component: () => import('@/pages/DonatePage.vue')
       },
       {
         path: '/product',
-        component: () => import('pages/Product.vue')
+        component: () => import('@/pages/ProductPage.vue')
       },
       {
         path: '/contact',
-        component: () => import('pages/Contact.vue')
+        component: () => import('@/pages/ContactPage.vue')
       },
-    ]
+    ],
   },
 
   // Always leave this as last one,
   // but you can also remove it
   {
-    path: '*',
-    component: () => import('pages/Error404.vue')
+    path: '/:catchAll(.*)*',
+    component: () => import('@/pages/ErrorNotFound.vue'),
   }
 ]
 

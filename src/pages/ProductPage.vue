@@ -50,7 +50,14 @@
               height="315"
               src="https://www.youtube.com/embed/Z0ZP8v3o3mc"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
               allowfullscreen
             ></iframe>
           </div>
@@ -60,7 +67,14 @@
               height="315"
               src="https://www.youtube.com/embed/x9njHNFHUOg"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+              "
               allowfullscreen
             ></iframe>
           </div>
@@ -99,34 +113,18 @@
               label="Donate Here"
             />
           </div>
-          <!-- <div class="col">
-          </div>
-          <div class="col">
-          </div> -->
         </div>
       </div>
     </section>
   </div>
 </template>
 
-<script>
-export default {
-  data: () => ({
-    book: false,
-    model: 4,
-    // for Carousel
-    slid: "moonlove",
-    navigation: true,
-    navPos: "bottom",
-    slide: 1,
-    fullscreen: false,
-  }),
-};
-</script>
+<script setup></script>
 
 <style lang="scss" scoped>
 .custom__header-variant2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
     url("/images/product.jpg");
   background-size: cover;
   background-attachment: fixed;
